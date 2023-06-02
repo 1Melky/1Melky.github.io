@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Start Escape room</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Jamil Alhaje / Mansour Amini">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script>
+    function verlaten() {
+    let code = prompt("CODE");
+    if(code == "SNICKER"){
+        alert(" Je wint")
+        window.location.href="./the_end.html"
+    }
+    else{
+        alert("FOUT!!!!")
+        for (let i = 10; i > 0; i++) {
+        console.log("fout",i);}
+    }
+    }
+    </script>
+<body class="background-2">
+
+    <button class="word1" onclick="alert('S')"></button>
+    
+    <button class="word2" onclick="alert('N')"></button>
+
+    <button class="word3" onclick="alert('I')"></button>
+
+    <button class="word4" onclick="alert('C')"></button>
+
+    <button class="word5" onclick="alert('K')"></button>
+
+    <button class="word6" onclick="alert('E')"></button>
+
+    <button class="word7" onclick="alert('R')"></button>
+
+    <button class="deur" onclick="verlaten()">open</button>
+
+
+</body>
+</html>

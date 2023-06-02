@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+}
+body {
+    position: relative;
+}
+#wrapper{
+    padding: 10px;
+    background-color: rgba(187, 16, 16, 0.549);
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    font-size: large;
+    color: white;
+    border-radius: 25px;
+}
+#wrapper > h2{
+    margin: 25px 0px 0px 5px;
+}
+
+#btn-start{
+    background-color: #070101;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 900px;
+    cursor: pointer;
+}
+#btn-1{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left:1030px;
+    top: 350px;
+    background-image: linear-gradient(#837a5c, #180f0a);
+    color: white;
+    padding: auto;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    fill-opacity: unset;
+}
+#btn-1:hover{
+    opacity: 0.4;
+}
+.background-1{
+    background-image: url("../Media/Kamer1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-2{
+    background-image: url("../Media/kamer2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-room1-1{
+    position: absolute;
+    top: 830px;
+    left: 1290px;
+    border: none;
+    color: #686464;
+    background-color:rgba(29,18,12,255);
+    text-decoration: underline;
+
+}
+
+.btn-room1-1:hover{
+    opacity: 0.4;
+    color: #fffbfb;
+    background-color: #888864;
+}
+
+.btn-room1-2{
+    position: absolute;
+    left: 500px;
+    top:  200px;
+    border: none;
+    color: #070101;
+    background-color: #c7b59e;
+}
+.btn-room1-2:hover{
+    color: #000000;
+    background-color: #c7b59e;
+    opacity: 0.4;
+    
+}
+.btn-room1-3{
+    position:absolute;
+    left: 89px;
+    top: 850px;
+    background-color:rgba(67,60,43,255);
+    border: none; 
+}
+.btn-room1-3:hover{
+    color: rgb(255, 255, 255);
+    background-color: #12110c;
+    opacity: 0.5;
+}
+
+.btn-room1-4{
+    position: absolute;
+    left: 1450px;
+    top: 400px;
+    background-color: rgba(77,50,31,255);
+    border: none;
+}
+.btn-room1-4:hover{
+    color: rgb(255, 255, 255);
+    background-color: #4c4233;
+    opacity: 0.5;
+}
+.word1{
+    position: absolute;
+    top: 450px;
+    left: 168px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+
+.word2{
+    position: absolute;
+    left:900px;
+    top:190px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.word3{
+    position: absolute;
+    left: 735px;
+    top: 610px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.word4{
+    position: absolute;
+    left: 1290px;
+    top: 805px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.word5{
+    position: absolute;
+    left: 1150px;
+    top: 35px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.word6{
+    position: absolute;
+    left: 630px;
+    top: 990px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.word7{
+    position: absolute;
+    left: 1800px;
+    top: 290px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.deur{
+    position: absolute;
+    left: 1445px;
+    top: 350px;
+    cursor: pointer;
+    background-color: rgb(65, 24, 24);
+    border: 2px solid black ;
+    color: rgb(255, 255, 255);
+}
+.word1:hover{
+    color:black;
+    background-color: rgba(51,30,18,255);
+    opacity: 0.9;
+}
+.word2:hover{
+    color:black;
+    background-color: rgba(150,135,113,255);
+    opacity: 0.9;
+}
+.word3:hover{
+    color:black;
+    background-color: rgba(66,62,33,255);
+    opacity: 0.9;
+}
+.word4:hover{
+    color:black;
+    background-color: rgba(99,66,49,255);
+    opacity: 0.9;
+}
+.word5:hover{
+    color:black;
+    background-color: rgba(192,128,90,255);
+    opacity: 0.9;
+}
+.word6:hover{
+    color:black;
+    background-color: rgba(51,29,18,255);
+    opacity: 0.9;
+}
+.word7:hover{
+    color:black;
+    background-color: rgba(53,51,38,255);
+    opacity: 0.9;
+}
+.win{
+    background-image: url("../Media/cf22171bbda1f35.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

@@ -1,0 +1,23 @@
+
+body {
+    background-image: url("gay.gif");
+}
+
+
+
+.wrapper{
+    margin: auto;
+    width: 510px;
+    height:930px;
+    text-align: center;
+}
+
+
+button{
+    padding: 10px;
+    background-color:  aqua;
+}
+
+.pp{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,3 @@
+[0125/092956.480:ERROR:registration_protocol_win.cc(106)] CreateFile: Het systeem kan het opgegeven bestand niet vinden. (0x2)
+[0125/093015.952:ERROR:registration_protocol_win.cc(106)] CreateFile: Het systeem kan het opgegeven bestand niet vinden. (0x2)
+[0125/093135.251:ERROR:registration_protocol_win.cc(106)] CreateFile: Het systeem kan het opgegeven bestand niet vinden. (0x2)

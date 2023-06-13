@@ -1,0 +1,240 @@
+:root{
+    --mole-background-img: url(/wack/img/active/dug.jpg);
+}
+
+/* *{
+    margin: 0;
+} */
+body{
+    background-color: rgba(159,204,251,255);
+    background-image: url(/wack/img/flow.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.tile{
+    background-color: rgb(255, 185, 94);
+    margin: 0;
+}
+
+.div:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(255, 255, 255);
+    background-image: var(--mole-background-img);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+ .wrapper{
+    gap: 10px;
+    width: 590px;
+    display: grid;
+    margin: auto;
+    /* border: 2px solid black;  */
+    grid-template-columns:repeat(7, 110px);
+    grid-template-rows: repeat(5, 110px);
+    grid-template-areas : 
+    "t1 t2 t3 t4 t5 sd2 ."
+    "t6 t7 t8 t9 t10 sd ."
+    "t11 t12 t13 t14 t15 sd3 ."
+    "t16 t17 t18 t19 t20 sd4 ."
+    "t21 t22 t23 t24 t25 sd5 ."
+    ;
+}
+
+.header{
+    margin: auto;
+    text-align: center;
+}
+.sidebar{
+    grid-area: sd;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 185, 94);
+    text-align: center;
+    font-size: 60px;
+    /* cursor: pointer; */
+}
+.score{
+    grid-area: sd2;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 185, 94);
+    text-align: center;
+    font-size: 22px;
+}
+
+.reset{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 185, 94);
+    font-size: 52px;
+    grid-area: sd3;
+}
+
+.tijd{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 185, 94);
+    font-size: 40px;
+    grid-area: sd4;
+}
+.tijd2{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 185, 94);
+    font-size: 40px;
+    grid-area: sd5;
+}
+
+.hov:hover{
+    background-color: rgb(207, 131, 32);
+     cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgb(207, 131, 32);
+     cursor: pointer;
+}
+
+.tijd:hover{
+    background-color: rgb(207, 131, 32);
+     cursor: pointer;
+}
+
+.tijd2:hover{
+    background-color: rgb(207, 131, 32);
+     cursor: pointer;
+}
+
+.tile1{
+    grid-area: t1;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile2{
+    grid-area: t2;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile3{
+    grid-area: t3;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile4{
+    grid-area: t4;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile5{
+    grid-area: t5;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile6{
+    grid-area: t6;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile7{
+    grid-area: t7;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile8{
+    grid-area: t8;
+    border: 2px solid black;
+    border-radius: 1000px;
+}
+.tile9{
+    grid-area: t9;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile10{
+    grid-area: t10;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile11{
+    grid-area: t11;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile12{
+    grid-area: t12;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile13{
+    grid-area: t13;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile14{
+    grid-area: t14;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile15{
+    grid-area: t15;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile16{
+    grid-area: t16;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile17{
+    grid-area: t17;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile18{
+    grid-area: t18;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile19{
+    grid-area: t19;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile20{
+    grid-area: t20;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile21{
+    grid-area: t21;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile22{
+    grid-area: t22;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile23{
+    grid-area: t23;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile24{
+    grid-area: t24;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
+.tile25{
+    grid-area: t25;
+    border: 2px solid black;
+    border-radius: 1000px;
+} 
